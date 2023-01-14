@@ -47,7 +47,7 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: 'Azure for Students (58444039-352d-46c4-9b45-95d5fc480943)'
+    azureSubscription: 'Azure for Students (e0024e08-8218-4440-b407-a81803febf3d)'
     appType: 'webAppLinux'
     WebAppName: 'WebBanking'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
